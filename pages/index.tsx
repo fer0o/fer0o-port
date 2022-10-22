@@ -7,9 +7,12 @@ const Home: NextPage = () => {
       <Head>
         <title>Fer's Portfolios</title>
       </Head>
-      <h1 className='text-3xl font-bold underline text-emerald-500 '>
-        Hello world!
-      </h1>
+      {/* Header */}
+      {/* Hero */}
+      {/* About */}
+      {/* Skills */}
+      {/* Projects */}
+      {/* Contact Me */}
     </div>
   )
 }
