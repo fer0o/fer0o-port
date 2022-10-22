@@ -21,7 +21,7 @@ export default function Hero ({}: Props) {
       <BackgroundCircles />
       <img
         className='relative rounded-full h-32 w-32 mx-auto object-cover'
-        src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnYnD-vKF8P_ez6LAALGISa_HpdmzSFdpFvVW17_0&s'
+        src='https://pbs.twimg.com/profile_images/1097208044231057408/hhYbzbJh_400x400.jpg'
         alt=''
       />
       {/* div with the text */}
