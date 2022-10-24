@@ -26,7 +26,7 @@ export default function Projects ({}: Props) {
               transition={{ duration: 1.2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src='https://raw.githubusercontent.com/fer0o/cursoReactCoderhouse/master/public/mundialito.gif'
+              src='https://a.espncdn.com/photo/2018/0723/r404958_1199x799_3-2.jpg'
             />
             <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
               <h4 className='text-2xl font-semibold text-center'>
