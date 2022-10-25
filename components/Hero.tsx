@@ -42,7 +42,7 @@ export default function Hero ({}: Props) {
             <button className='heroButton'>Projects</button>
           </Link>
 
-          <Link href='about'>
+          <Link href='#about'>
             <button className='heroButton'>About</button>
           </Link>
 
