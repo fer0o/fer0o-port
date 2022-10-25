@@ -45,7 +45,7 @@ const Home: NextPage = () => {
         <footer className='sticky bottom-5 w-full cursor-pointer'>
           <div className='flex items-center justify-center'>
             <img
-              src='https://pbs.twimg.com/profile_images/1097208044231057408/hhYbzbJh_400x400.jpg'
+              src='https://play-lh.googleusercontent.com/sjY0YeMySx9TQOFFJgbRa-hJlFICKIKy2sELJB1z4MCwKRxlXNkhvS5G72ZHvK4sqA'
               alt=''
               className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0'
             />
