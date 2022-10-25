@@ -10,7 +10,7 @@ import Skills from '../components/Skills'
 
 const Home: NextPage = () => {
   return (
-    <div className='bg-black text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0'>
+    <div className='bg-black text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-500/20 scrollbar-thumb-blue-900/80'>
       <Head>
         <title>Fer's Portfolios</title>
       </Head>
