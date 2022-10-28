@@ -49,7 +49,7 @@ const Home = ({ pageInfo, experiences, projects, skills, socials }: Props) => {
       </section>
       {/* Projects */}
       <section id='projects' className='snap-start'>
-        <Projects />
+        <Projects projects={projects} />
       </section>
       {/* Contact Me */}
       <section id='contact' className=' snap-center'>
@@ -85,6 +85,10 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
       skills,
       projects,
       socials
-    }
+    },
+    //Next.js will attempt to re-generate the page:
+    // When a request comes in
+    // at most once every 30 seconds
+    revalidate: 30
   }
 }
