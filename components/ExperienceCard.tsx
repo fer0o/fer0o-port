@@ -34,14 +34,16 @@ export default function ExperienceCard ({ experience }: Props) {
             ))}
           </div>
           <p className='uppercase py-5 space-y-4 ml-5 text-lg'>
-            {new Date(experience.dateStarted).toDateString()}-{''}
+            {new Date(experience.dateStarted).toDateString()} - {''}
             {experience.isCurrentWorkingHere
               ? 'Present'
               : new Date(experience.dateEnded).toDateString()}
           </p>
-          <ul className='list-disc space-y-4 ml-5 text-lg h-96 max-w-40 pr-5 overflow-y-scroll scrollbar-thin scrollbar-track-black scrollbar-thumb-blue-900 '>
+          <ul className='list-disc space-y-4 ml-5 text-lg max-h-96 overflow-y-scroll pr-5 scrollbar-thin scrollbar-track-black scrollbar-thumb-blue-900/80 '>
             {experience.points.map((point, idx) => (
-              <li key={idx}>{point}</li>
+              <li className='' key={idx}>
+                {point}
+              </li>
             ))}
           </ul>
         </div>
